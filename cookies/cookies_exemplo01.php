@@ -1,0 +1,8 @@
+<?php 
+
+	setcookie("usuario","etecia");
+
+ ?>
+
+
+ 

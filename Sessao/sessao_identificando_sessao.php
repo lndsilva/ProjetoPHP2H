@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sessão de usuário - identificando uma sessão</title>
+</head>
+<body>
+	<?php 
+		
+		session_start();
+
+		$_SESSION['nome'] = "usuário";
+
+		var_dump($_SESSION);
+
+	 ?>
+
+</body>
+</html>
+
